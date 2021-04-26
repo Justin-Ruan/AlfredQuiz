@@ -13,6 +13,7 @@
 		9512B34426369C6C000E8C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9512B34226369C6C000E8C1C /* Main.storyboard */; };
 		9512B34626369C71000E8C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9512B34526369C71000E8C1C /* Assets.xcassets */; };
 		9512B34926369C71000E8C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9512B34726369C71000E8C1C /* LaunchScreen.storyboard */; };
+		9512B3522636A007000E8C1C /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9512B3512636A007000E8C1C /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9512B34526369C71000E8C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9512B34826369C71000E8C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9512B34A26369C71000E8C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9512B3512636A007000E8C1C /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9512B34526369C71000E8C1C /* Assets.xcassets */,
 				9512B34726369C71000E8C1C /* LaunchScreen.storyboard */,
 				9512B34A26369C71000E8C1C /* Info.plist */,
+				9512B3512636A007000E8C1C /* PreviewView.swift */,
 			);
 			path = AlfredQuiz;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9512B34126369C6C000E8C1C /* ViewController.swift in Sources */,
+				9512B3522636A007000E8C1C /* PreviewView.swift in Sources */,
 				9512B33D26369C6C000E8C1C /* AppDelegate.swift in Sources */,
 				9512B33F26369C6C000E8C1C /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XX5TS5R8N7;
 				INFOPLIST_FILE = AlfredQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XX5TS5R8N7;
 				INFOPLIST_FILE = AlfredQuiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
